@@ -17,13 +17,6 @@ function Navbar() {
                 </div>
                 <h1 className='text-2xl sm:text-3xl lg:text-4xl cursor-pointer mx-1 font-bold text-green-600'>Foodie</h1>
             </div>
-            
-            <div>
-                <button className='bg-black text-white hidden md:flex items-center py-2 gap-2 justify-center  rounded-xl w-[100px]'>
-                    <IoCartOutline size={18}/>
-                    <span>Cart</span>
-                </button>
-            </div>
 
             {
                 nav?(
